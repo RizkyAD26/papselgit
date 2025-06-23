@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Mosaddek">
+    <meta name="keyword" content="FlatLab, Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <title>Papua Selatan</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-reset.css" rel="stylesheet">
+    <!--external css-->
+    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="assets/jquery-easy-pie-chart/jquery.easy-pie-chart.css" rel="stylesheet" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+
+    <!--right slidebar-->
+    <link href="css/slidebars.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-responsive.css" rel="stylesheet" />
+
+  </head>
+
+  <body class="light-sidebar-nav">
+
+  <section id="container">
+      <!--header start-->
+      <header class="header white-bg">
+              <div class="sidebar-toggle-box">
+                  <i class="fa fa-bars"></i>
+              </div>
+            <!--logo start-->
+            <a href="index.html" class="logo">Papua Selatan</a>
+            <!--logo end-->
+            <div class="nav notify-row" id="top_menu">
+                
+            </div>
+            <div class="top-nav ">
+                <!--search & user info start-->
+                <ul class="nav pull-right top-menu">
+                    <li>
+                    </li>
+                    <!-- user login dropdown start-->
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <img alt="" src="img/avatar1_small.jpg">
+                            <span class="username">Jhon Doue</span>
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu extended logout dropdown-menu-right">
+                            <div class="log-arrow-up"></div>
+                            <li><a href="#"><i class=" fa fa-suitcase"></i>Profile</a></li>
+                            <li><a href="#"><i class="fa fa-cog"></i> Settings</a></li>
+                            <li><a href="#"><i class="fa fa-bell-o"></i> Notification</a></li>
+                            <li><a href="login.html"><i class="fa fa-key"></i> Log Out</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- user login dropdown end -->
+                </ul>
+                <!--search & user info end-->
+            </div>
+        </header>
+      <!--header end-->
+      <!--sidebar start-->
+      <aside>
+          <div id="sidebar"  class="nav-collapse ">
+              <!-- sidebar menu start-->
+              <ul class="sidebar-menu" id="nav-accordion">
+                  <li>
+                      <a class="active" href="index.html">
+                          <i class="fa fa-dashboard"></i>
+                          <span>Dashboard</span>
+                      </a>
+                  </li>
+
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="fa fa-laptop"></i>
+                          <span>Master Data</span>
+                      </a>
+                      <ul class="sub">
+                        <li><a href="profile.html">Profile Kabupaten Kota</a></li>
+                        <li><a href="#">Index Kegiatan</a></li>
+                        <li><a href="renomu.html">Renomurasi KDH</a></li>
+                        <li><a href="jadwal.html">Tahapan & Jadwal</a></li>
+                      </ul>
+                  </li>
+
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="fa fa-book"></i>
+                          <span>Mandatory Control</span>
+                      </a>
+                      <ul class="sub">
+                        <li><a href="pendidikan.html">Pendidikan</a></li>
+                        <li><a href="infrastruktur.html">Infrastruktur</a></li>
+                        <li><a href="apip.html">APIP</a></li>
+                        <li><a href="aldes.html">Alokasi Dana Desa</a></li>
+                        <li><a href="kompetensi.html">Kompetensi Pendidikan & Pelatihan</a></li>
+                        <li><a href="opsen.html">OPSEN</a></li>
+                        <li><a href="kdh.html">Tunjangan KDH & WKDH</a></li>
+                        <li><a href="dpr.html">Tunjangan DPR</a></li>
+                        <li><a href="asn.html">Tunjangan ASN</a></li>
+                      </ul>
+                  </li>
+
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="fa fa-tasks"></i>
+                          <span>Laporan</span>
+                      </a>
+                      <ul class="sub">
+                        <li><a href="laporan.html">Rekap Data</a></li>
+                      </ul>
+                  </li>
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="fa fa-cogs"></i>
+                          <span>Pengaturan</span>
+                      </a>
+                      <ul class="sub">
+                        <li><a href="user.html">Pengguna</a></li>
+                      </ul>
+                  </li>
+              </ul>
+              <!-- sidebar menu end-->
+          </div>
+      </aside>
+      <!--sidebar end-->
+      <!--main content start-->
+      <section id="main-content">
+          <section class="wrapper">
+              <!--state overview start-->
+              <div class="row">
+                <div class="col-lg-12">
+                    <section class="card">
+                        <div header class="card-header">
+                            <h4 style="font-weight: bold;">Kabupaten Kota</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="content-panel">
+                                <section id="container">
+                                    <form id="profiledaerah class="form-horizontal style-form" role="form">
+                                        <h4 style="text-decoration: underline;">Profile</h4>
+                                        <div class="form-group">
+                                            <label class="col-lg-12 control-label">Tahun Anggaran</label>
+                                            <div class="col-md-2">
+                                                <select class="form-control">
+                                                    <option>-----</option>
+                                                    <option>2023</option>
+                                                    <option>2024</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-lg-12 control-label">Nama Kabupaten Kota</label>
+                                            <div class="col-md-12">
+                                                <input type="text" class="form-control" placeholder="Nama Kabupaten Kota">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-lg-12 control-label">Alamat Kantor Pemerintahan</label>
+                                            <div class="col-md-12">
+                                                <input type="text" class="form-control" placeholder="Alamat">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-lg-12 control-label">Nama Bupati</label>
+                                            <div class="col-md-12">
+                                                <input type="text" class="form-control" placeholder="Nama">
+                                            </div>
+                                        </div>
+                                        <h5 style="text-decoration: underline;">Data Anggota Legislatif</h5>
+                                        <div class="form-group">
+                                            <label class="col-lg-12 control-label">Nama Ketua DPRD</label>
+                                            <div class="col-md-12">
+                                                <input type="text" class="form-control" placeholder="Nama">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-lg-12 control-label">Jumlah Ketua DPRD</label>
+                                            <div class="col-md-12">
+                                                <input type="text" class="form-control" placeholder="Jumlah">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-lg-12 control-label">Jumlah Wakil DPR</label>
+                                            <div class="col-md-12">
+                                                <input type="text" class="form-control" placeholder="Jumlah">
+                                            </div>
+                                        </div>
+                                        <h4 style="text-decoration: underline;">Keuangan Daerah</h4>
+                                        <div class="form-group">
+                                            <label class="col-lg-12 control-label">Pendapatan Asli Daerah</label>
+                                            <div class="col-md-12">
+                                            <input type="text" class="form-control" id="pad" placeholder="PAD">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-lg-12 control-label">Dana Bagi Hasil</label>
+                                            <div class="col-md-12">
+                                            <input type="text" class="form-control" id="dbh" placeholder="DBH">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-lg-12 control-label">Dana Alokasi Umum</label>
+                                            <div class="col-md-12">
+                                            <input type="text" class="form-control" id="dau" placeholder="DAU">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-lg-12 control-label">Tambahan Penghasilan Pegawai</label>
+                                            <div class="col-md-12">
+                                            <input type="text" class="form-control" id="tpp" placeholder="TPP">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-lg-12 control-label">Tunjangan</label>
+                                            <div class="col-md-12">
+                                            <input type="text" class="form-control" id="tunj" placeholder="Tunjangan">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-lg-12 control-label">Gaji</label>
+                                            <div class="col-md-12">
+                                            <input type="text" class="form-control" id="gaji" placeholder="Gaji">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-lg-12 control-label">Total</label>
+                                            <div class="col-md-12">
+                                            <input type="text" class="form-control" id="total" placeholder="*akumulasi" readonly="true">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-lg-12 control-label">Keterangan</label>
+                                            <div class="col-md-12">
+                                            <input type="text" class="form-control" id="ket" placeholder="*lvlkeuangan" readonly="true">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-lg-12 control-label">Upload Logo</label>
+                                            <div class="col-md-12">
+                                            <input type="file" class="form-control" placeholder="Logo">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-lg-12 control-label">Migrasi Data</label>
+                                            <div class="col-md-12">
+                                            <input type="file" class="form-control" placeholder="file">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-lg-offset-2 col-lg-10">
+                                                <button class="btn btn-primary" type="submit">Simpan</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </section>
+                    </section>
+                </div>                  
+            </section>
+      </section>
+      <!--main content end-->
+
+      
+
+      <!--footer start-->
+      <!--<footer class="site-footer">
+          <div class="text-center">
+              2018 &copy; FlatLab by VectorLab.
+              <a href="#" class="go-top">
+                  <i class="fa fa-angle-up"></i>
+              </a>
+          </div>
+      </footer>-->
+      <!--footer end-->
+  </section>
+
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script class="include" type="text/javascript" src="js/jquery.dcjqaccordion.2.7.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/jquery.nicescroll.js" type="text/javascript"></script>
+    <script src="js/jquery.sparkline.js" type="text/javascript"></script>
+    <script src="assets/jquery-easy-pie-chart/jquery.easy-pie-chart.js"></script>
+    <script src="js/owl.carousel.js" ></script>
+    <script src="js/jquery.customSelect.min.js" ></script>
+    <script src="js/respond.min.js" ></script>
+
+    <!--right slidebar-->
+    <script src="js/slidebars.min.js"></script>
+
+    <!--common script for all pages-->
+    <script src="js/common-scripts.js"></script>
+
+    <!--script for this page-->
+    <script src="js/sparkline-chart.js"></script>
+    <script src="js/easy-pie-chart.js"></script>
+    <script src="js/count.js"></script>
+
+    <!--<script>
+        // Format semua input angka saat keyup
+        const inputIds = ['pad', 'dbh', 'dau', 'tpp', 'tunj', 'gaji'];
+    
+        inputIds.forEach(id => {
+            const input = document.getElementById(id);
+            input.addEventListener('keyup', function () {
+                let cleaned = this.value.replace(/\D/g, '');
+                this.value = cleaned.replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+            });
+    
+            // Jalankan perhitungan saat nilai berubah
+            input.addEventListener('input', hitungTotalDanKeterangan);
+        });
+    
+        // Ambil nilai bersih dari input (hapus koma, konversi ke angka)
+        function getValue(id) {
+            const raw = document.getElementById(id).value.replace(/,/g, '');
+            return parseFloat(raw) || 0;
+        }
+    
+        // Hitung total dan tampilkan keterangan
+        function hitungTotalDanKeterangan() {
+            const pad = getValue('pad');
+            const dbh = getValue('dbh');
+            const dau = getValue('dau');
+            const tpp = getValue('tpp');
+            const tunj = getValue('tunj');
+            const gaji = getValue('gaji');
+    
+            const totalPendapatan = pad + dbh + dau;
+            const totalBelanja = gaji + tunj + tpp;
+    
+            const total = totalPendapatan - totalBelanja;
+    
+            // Format total sebagai angka dengan pemisah ribuan
+            document.getElementById('total').value = total.toLocaleString('id-ID', {
+                minimumFractionDigits: 2,
+                maximumFractionDigits: 2
+            });
+    
+            let keterangan = '';
+            if (total >= 550_000_000_000) {
+                keterangan = 'Tinggi';
+            } else if (total >= 300_000_000_000 && total < 550_000_000_000) {
+                keterangan = 'Sedang';
+            } else {
+                keterangan = 'Rendah';
+            }
+    
+            document.getElementById('keterangan').value = keterangan;
+        }
+    </script>-->
+
+  </body>
+</html>
